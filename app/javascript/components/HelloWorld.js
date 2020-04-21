@@ -1,13 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-// class HelloWorld extends React.Component {
-//   render() {
-//     return <>Hello : {this.props.greeting}</>;
-//   }
-// }
+import styles from "../../assets/stylesheets/hello-world.module.css";
 
 function HelloWorld(props) {
-  return <>Woowhee {props.greeting}</>;
+  return <div className={styles.root}>Woowhee {props.greeting}</div>;
 }
 
 HelloWorld.propTypes = {
