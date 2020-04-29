@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
+# devise for authentication
+gem 'devise', '~> 4.2'
 # react
 gem 'react-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
